@@ -1,6 +1,6 @@
  import React from 'react';
  import { HERO_CONTENT } from '../constants';
- import profilePic from "../assets/kevinRushProfile.png"
+ import profilePic from "../assets/BhartenduPandyaProfile.jpeg"
  import { motion } from "framer-motion" 
 
  const container = (delay) => ({
@@ -24,7 +24,7 @@
                 initial="hidden"
                 animate="visible"
                 className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl
-                ">Kevin Rush</motion.h1>
+                ">Bhartendu Pandya</motion.h1>
                 <motion.span  
                 variants={container(0.5)}
                 initial="hidden"
@@ -46,7 +46,7 @@
                 initial={{ x:100, opacity:0 }}
                 animate={{ x:0, opacity:1 }}
                 transition={{ duration:1, delay:1.2 }}
-                src={profilePic} alt="Kevin Rush" />
+                src={profilePic} alt="Bhartendu Pandya" />
             </div>
         </div>
        </div>
